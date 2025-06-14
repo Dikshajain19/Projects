@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: url(OIP.jpeg) no-repeat center center / cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+#heading{
+    color: aliceblue;
+    background-color: black;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 3rem;
+}
+.info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Score to left, Time to right */
+  width: 100%;
+  padding: 10px 100px;
+  box-sizing: border-box;
+}
+#btn{
+    border: 2px solid white;
+    border-radius: 3px;
+    color: white;
+    background-color: lime;
+    font-size: 2rem;
+    padding: 6px;
+}
+
+
+.score, .time {
+    display: flex;
+  background-color: rgb(73, 27, 12);
+  color: white;
+  padding: 10px;
+}
+.grid{
+    height: 546px;
+    width: 546px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.square{
+    border: 1px solid black;
+    width: 180px;
+    height: 180px;
+    background-color: rgba(45, 46, 49, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mole{
+    height: 120px;
+    width: 120px;
+}
